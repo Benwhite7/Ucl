@@ -1,0 +1,203 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: black;
+    text-align: center; 
+    margin: 60px;
+  }
+
+  a[href="https://es.uefa.com/uefachampionsleague/"] {
+    color: white;
+    text-align: center;
+  }
+  .card h1 {
+    background: purple;
+    color: white;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+  }
+
+  .history h1  {
+    background: darkblue;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .history-container {
+    display: grid;
+    grid-template-columns: 65% auto;
+    grid-template-rows: auto;
+    align-items: center;
+  }
+  .history p {
+   padding: 20px;
+  }
+  .img-container img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .card h2 {
+    width: 100%;
+  }
+
+  div p:nth-child(6) {
+    color: white;
+    background: purple;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 360px);
+    justify-content: center;
+    gap: 14px;
+  }
+  .player-card {
+    width: 360px;
+    background: #1565C0;
+  }
+
+  .player-card img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+  }
+
+  .player-info {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+  }
+
+  /* Estilos de equipos */
+
+
+  .subtitle {
+    text-align: center;
+    font-size: 30px;
+    height: 40px;
+    padding: 30px;
+    margin: 20px;
+    background: linear-gradient(90deg, #52007B , #000099);
+    color: white;
+  }
+  .team-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 260px);
+    gap: 20px;
+    justify-content: space-around;
+    justify-items: center;
+  }
+
+  .team-card {
+    width: 260px;
+    padding: 20px 0px 20px 0px;
+    background-color: #000099;
+    font-family: 'Julius Sans One', sans-serif;
+  }
+  .Real {
+    background-color: gold;
+    color: #000099;
+  }
+  .Milan {
+    background-color: silver;
+  }
+  .Liverpool {
+    background-color: chocolate;
+  }
+  .team-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  .team-info {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  /* Estilos de los partidos*/
+
+  .second-subtitle div {
+    text-align: center;
+  }
+  .second-subtitle h1 {
+    margin-top: 30px;
+    font-size: 25px;
+    padding: 30px;
+    background: linear-gradient(90deg, #D81805 , #F97900);
+    color: white;
+  }
+  .match-card img {
+    border-radius: 10px;
+  }
+  .match-card p {
+    margin: 10px;
+    padding: 10px;
+  }
+
+
+
+  .the-miracle {
+    display: grid;
+    grid-template-columns: minmax(auto, 750px) auto;
+    grid-template-rows: auto;
+    align-items: center;
+  }
+  .el-milagro {
+    background: red;
+    color: white;
+    font-weight: bold;
+    width: 750px;
+  }
+  .the-miracle img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .la-decima {
+    background: orange;
+    color: white;
+    width: 750px;
+    font-weight: bold;  
+  }
+  .the-tenth{
+    display: grid;
+    grid-template-columns: minmax(auto, 750px) auto;
+    grid-template-rows: auto;
+    align-items: center;
+  }
+  .the-tenth img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .la-remontada-imposible {
+    background: purple;
+    color: white;
+    font-weight: bold;
+    width: 750px;
+  }
+  .Mission-imposible {
+    display: grid;
+    grid-template-columns: minmax(auto, 750px) auto;
+    grid-template-rows: auto;
+    align-items: center;
+  }
+  .Mission-imposible img {
+    width: 100%;
+    height: 100%;
+  }
+
+  
